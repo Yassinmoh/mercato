@@ -1,0 +1,168 @@
+@mixin spanStyle {
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+@mixin clupStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin club-name-style {
+    color: #F9B658;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 171.9%;
+}
+
+.currency{
+    position: absolute;
+    top: 0;
+    margin-top: 1rem;
+
+}
+.card {
+    margin-top: 3rem;
+    width: 19.625rem;
+    height: 20.188rem;
+    background-color: #1a233a;
+    border-radius: 6px;
+
+    .player-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-top: 2rem;
+
+        img {
+            width: 5.813rem;
+            height: 5.813rem;
+            border-radius: 50%;
+            width: fit-content;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .player-price {
+            color: #bebdbb;
+            background-color: #171824;
+            border-radius: 4px;
+            padding: 4px 8px;
+            position: absolute;
+            top: 4.4rem;
+            left: 8rem;
+        }
+    }
+
+    .player-name {
+        color: #F59130;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .player-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        color: #BEBDBB;
+
+        .trans {
+
+            span,
+            svg {
+                @include spanStyle
+            }
+        }
+
+        .player-age {
+
+            span,
+            svg {
+                @include spanStyle
+            }
+        }
+    }
+
+    .club-info {
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+
+        .current-club {
+            @include clupStyle;
+
+            .club-name {
+                @include club-name-style;
+            }
+        }
+
+        .trans-date {
+            @include clupStyle;
+            gap: 1.8rem;
+
+            .trans-year {
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 9px;
+                color: #BEBDBB;
+            }
+        }
+
+        .prev-club {
+            @include clupStyle;
+
+            .club-name {
+                @include club-name-style;
+            }
+        }
+    }
+
+    .card-footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #1e1f2d;
+        height: 4.5rem;
+        color: #BEBDBB;
+
+        .likes{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            svg{
+                font-size: 20px;
+            }
+            .like{
+                display: flex;
+                align-items: center;
+                gap:2px;
+            }
+            .dislike{
+                display: flex;
+                align-items: center;
+                gap:2px ;
+            }
+        }
+        .comments{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            border: 1px solid #1e3151;
+            padding: 0.7rem 1rem;
+            border-radius: 7px;
+            svg{
+                font-size: 20px;
+            }
+        }
+    }
+
+}

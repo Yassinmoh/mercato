@@ -1,0 +1,146 @@
+.currency {
+  position: absolute;
+  top: 0;
+  margin-top: 1rem;
+}
+
+.card {
+  margin-top: 3rem;
+  width: 19.625rem;
+  height: 20.188rem;
+  background-color: #1a233a;
+  border-radius: 6px;
+}
+.card .player-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 2rem;
+}
+.card .player-img img {
+  width: 5.813rem;
+  height: 5.813rem;
+  border-radius: 50%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card .player-img .player-price {
+  color: #bebdbb;
+  background-color: #171824;
+  border-radius: 4px;
+  padding: 4px 8px;
+  position: absolute;
+  top: 4.4rem;
+  left: 8rem;
+}
+.card .player-name {
+  color: #F59130;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+}
+.card .player-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: #BEBDBB;
+}
+.card .player-info .trans span,
+.card .player-info .trans svg {
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 5px;
+}
+.card .player-info .player-age span,
+.card .player-info .player-age svg {
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 5px;
+}
+.card .club-info {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.card .club-info .current-club {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card .club-info .current-club .club-name {
+  color: #F9B658;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 171.9%;
+}
+.card .club-info .trans-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.8rem;
+}
+.card .club-info .trans-date .trans-year {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 9px;
+  color: #BEBDBB;
+}
+.card .club-info .prev-club {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card .club-info .prev-club .club-name {
+  color: #F9B658;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 171.9%;
+}
+.card .card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1e1f2d;
+  height: 4.5rem;
+  color: #BEBDBB;
+}
+.card .card-footer .likes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.card .card-footer .likes svg {
+  font-size: 20px;
+}
+.card .card-footer .likes .like {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.card .card-footer .likes .dislike {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.card .card-footer .comments {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid #1e3151;
+  padding: 0.7rem 1rem;
+  border-radius: 7px;
+}
+.card .card-footer .comments svg {
+  font-size: 20px;
+}/*# sourceMappingURL=card.css.map */
