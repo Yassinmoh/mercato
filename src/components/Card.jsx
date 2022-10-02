@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './card.css'
+import '../styles/card.css'
 import { BiTransfer, BiCommentDetail } from 'react-icons/bi'
 import { BsFillPersonFill } from 'react-icons/bs'
 import { AiFillLike, AiFillDislike } from 'react-icons/ai'

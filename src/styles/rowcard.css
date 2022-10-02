@@ -1,0 +1,86 @@
+.rowcard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5rem;
+  margin-top: 0.3rem;
+  color: #bebdbb;
+  background-color: #1e1f2d;
+  font-size: 13px;
+  padding: 0 0.2rem;
+  width: 100%;
+  border-radius: 6px;
+}
+.rowcard .card-comm-likes,
+.rowcard .player-info,
+.rowcard .clup-info,
+.rowcard .player-img {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.rowcard .card-comm-likes {
+  gap: 0.5rem;
+  background: url("../../public/bac-com.png");
+  background-size: cover;
+  background-position: center;
+  padding: 1.7rem 0rem;
+  background-color: #1e1f2d;
+}
+.rowcard .card-comm-likes svg {
+  margin-left: 0.5rem;
+}
+.rowcard .card-comm-likes .likes {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.rowcard .card-comm-likes .likes svg {
+  margin-right: 0.5rem;
+}
+.rowcard .card-comm-likes .comments span {
+  padding: 0.6rem 1rem;
+  border: 1px solid #1e3151;
+  border-radius: 6px;
+}
+.rowcard .player-info {
+  gap: 0.3rem;
+  justify-content: space-between;
+  background-color: #1e1f2d;
+  padding: 1.78rem 0.6rem;
+}
+.rowcard .clup-info {
+  gap: 0.8rem;
+  background-color: #1e1f2d;
+}
+.rowcard .clup-info .current-club,
+.rowcard .clup-info .prev-club {
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+}
+.rowcard .clup-info .current-club img,
+.rowcard .clup-info .prev-club img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
+.rowcard .player-img {
+  background: url("../../public/bac-com.png");
+  background-position: center;
+  background-size: cover;
+  background-color: #1e1f2d;
+  padding: 0.49rem 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+.rowcard .player-img img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+.rowcard:first-child {
+  margin-top: 1rem;
+}/*# sourceMappingURL=rowcard.css.map */

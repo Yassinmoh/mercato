@@ -2,7 +2,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 1.4rem;
-    row-gap: 5rem;
+    background: url('../public/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 140vh;
+    width: 100%;
+}
+.card-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+}
+.card-2{
+    width: 84%;
+
 }

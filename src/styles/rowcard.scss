@@ -1,0 +1,96 @@
+.rowcard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.5rem;
+    margin-top: 0.3rem;
+    color: #bebdbb;
+    background-color: #1e1f2d;
+    font-size: 13px;
+    padding: 0 0.2rem;
+    width: 100%;
+    border-radius: 6px;
+    .card-comm-likes,
+    .player-info,
+    .clup-info,
+    .player-img {
+        display: flex;
+        align-items: center;
+        flex: 1;
+    }
+
+    .card-comm-likes {
+        gap: 0.5rem;
+        background: url("../../public/bac-com.png");
+        background-size: cover;
+        background-position: center;
+        padding: 1.7rem 0rem;
+        svg {
+            margin-left: 0.5rem;
+        }
+
+        background-color: #1e1f2d;
+
+        .likes {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+
+            svg {
+                margin-right: 0.5rem;
+            }
+        }
+        .comments{
+            span{
+                padding: 0.6rem 1rem;
+                border: 1px solid #1e3151;
+                border-radius: 6px;
+            }
+        }
+    }
+
+    .player-info {
+        gap: 0.3rem;
+        justify-content: space-between;
+        background-color: #1e1f2d;
+        padding: 1.78rem 0.6rem;
+    }
+
+    .clup-info {
+        gap: 0.8rem;
+        background-color: #1e1f2d;
+        .current-club,
+        .prev-club {
+            display: flex;
+            align-items: center;
+            gap: 1.3rem;
+
+            img {
+                width: 38px;
+                height: 38px;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .player-img {
+        background: url("../../public/bac-com.png");
+        background-position: center;
+        background-size: cover;
+        background-color: #1e1f2d;
+        padding: 0.49rem 0.6rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 1rem;
+        img {
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+        }
+    }
+    &:first-child{
+        margin-top: 1rem;
+    }
+
+}

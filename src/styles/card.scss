@@ -22,10 +22,14 @@
     position: absolute;
     top: 0;
     margin-top: 1rem;
+    color: #bebdbb;
+
+    label{
+        margin-left: 1rem;
+    }
 
 }
 .card {
-    margin-top: 3rem;
     width: 19.625rem;
     height: 20.188rem;
     background-color: #1a233a;
